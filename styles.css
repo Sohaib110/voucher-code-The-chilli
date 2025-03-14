@@ -9,7 +9,7 @@ body {
 
 /* Header */
 h1 {
-    background-color: #007bff;
+    background-color: #28a745;
     color: white;
     padding: 20px;
     margin: 0;
@@ -45,7 +45,7 @@ h1 {
 }
 
 .input-container button {
-    background: #007bff;
+    background: #28a745;
     color: white;
     border: none;
     padding: 12px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .input-container button:hover {
-    background: #0056b3;
+    background: #218838;
 }
 
 /* Data Display */
@@ -73,7 +73,7 @@ h1 {
 }
 
 #data-display h2 {
-    color: #007bff;
+    color: #28a745;
     font-size: 1.5rem;
     text-align: center;
 }
