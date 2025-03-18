@@ -235,3 +235,11 @@ async function claimReward() {
 // Expose the functions globally
 window.fetchData = fetchData;
 window.claimReward = claimReward;
+document.addEventListener("DOMContentLoaded", () => {
+  // You can also add event listeners this way instead of using onclick in HTML
+  const fetchButton = document.getElementById("fetchButton");
+  fetchButton.addEventListener("click", () => {
+    fetchData("sheet1", "voucher1");
+    console.log("Fetch button clicked");
+  });
+});
